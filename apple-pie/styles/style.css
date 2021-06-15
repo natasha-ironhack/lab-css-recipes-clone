@@ -1,1 +1,73 @@
-work in progress
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.box .first-text{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+}
+
+.box-1 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+
+.box2 {
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.first-paragraph {
+    margin: 0px 10px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    width: auto;
+}
+
+.first-paragraph p {
+  margin: 10px 375px 20px 375px;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    width: auto;
+   display: in-block element
+}
+  
+.directions-text p {
+    margin: 10px 375px 20px 375px;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    width: auto;
+   display: in-block element
+}
+
+.ingredients-text-parent p {
+    margin: 10px 375px 20px 375px;
+    padding: 5px 5px 5px 5px;
+    height: auto;
+    width: auto;
+    text-align: left
+}
+
+ul {
+    display: in-block element; 
+	text-align: left;
+}
